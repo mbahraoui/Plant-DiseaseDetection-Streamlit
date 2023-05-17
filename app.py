@@ -5,7 +5,7 @@ import streamlit as st
 import os
 import subprocess
 if not os.path.isfile('plant_disease.h5'):
-    subprocess.run(['curl --output plant_disease.h5 "https://github.com/mbahraoui/Plant-DiseaseDetection-Streamlit/blob/main/plant_disease.h5"'], shell=True)
+    subprocess.run(['curl --output plant_disease.h5 "https://media.githubusercontent.com/media/mbahraoui/Plant-DiseaseDetection-Streamlit/main/plant_disease.h5"'], shell=True)
 
 # Load the trained model
 model = load_model('plant_disease.h5')
