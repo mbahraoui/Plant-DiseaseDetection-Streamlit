@@ -4,7 +4,7 @@ from keras.utils import load_img,img_to_array
 import streamlit as st
 
 # Load the trained model
-model = load_model('./plant_disease.h5')
+model = load_model('plant_disease.h5')
 
 # Define the function to make predictions
 def predict(image):
