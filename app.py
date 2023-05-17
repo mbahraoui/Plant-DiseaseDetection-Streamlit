@@ -8,7 +8,7 @@ import os
 def load_model_function():
     if not os.path.isfile('plant_disease.h5'):
         urllib.request.urlretrieve('https://media.githubusercontent.com/media/mbahraoui/Plant-DiseaseDetection-Streamlit/main/plant_disease.h5', 'plant_disease.h5')
-    return load_model('model.h5')
+    return load_model('plant_disease.h5')
 
 # Load the trained model
 model = load_model_function()
