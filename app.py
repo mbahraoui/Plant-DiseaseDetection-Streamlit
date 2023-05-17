@@ -3,6 +3,10 @@ import numpy as np
 from keras.utils import load_img,img_to_array
 import streamlit as st
 
+import subprocess
+if not os.path.isfile('plant_disease.h5'):
+    subprocess.run(['curl --output plant_disease.h5 "https://github.com/mbahraoui/Plant-DiseaseDetection-Streamlit/blob/main/plant_disease.h5"'], shell=True)
+
 # Load the trained model
 model = load_model('plant_disease.h5')
 
