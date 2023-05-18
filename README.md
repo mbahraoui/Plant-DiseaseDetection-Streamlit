@@ -46,7 +46,7 @@ To run the Plant Disease Detection application on your local machine, follow the
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/Plant-DiseaseDetection-Streamlit.git
+   git clone https://github.com/mbahraoui/Plant-DiseaseDetection-Streamlit.git
    ```
 
 2. Navigate to the repository directory:
