@@ -1,7 +1,5 @@
 # Plant Disease Detection - Streamlit
 
-![Plant Disease Detection]([https://user-images.githubusercontent.com/30645315/68544440-37ffdd80-03e9-11ea-8acd-3f3f9b6fc8b3.png])
-
 This repository contains the source code and trained models for the Plant Disease Detection application using Convolutional Neural Networks (CNN). The application is deployed and can be accessed at [https://plantdiseasedetection.streamlit.app/](https://plantdiseasedetection.streamlit.app/).
 
 ## About
